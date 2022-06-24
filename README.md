@@ -1,3 +1,26 @@
+## ntpd_driver (humble) - 2.1.0-2
+
+The packages in the `ntpd_driver` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -t humble --new-track ntpd_driver` on `Fri, 24 Jun 2022 11:32:02 -0000`
+
+The `ntpd_driver` package was released.
+
+Version of package(s) in repository `ntpd_driver`:
+
+- upstream repository: https://github.com/vooon/ntpd_driver.git
+- release repository: https://github.com/ros2-gbp/ntpd_driver-release.git
+- rosdistro version: `2.1.0-1`
+- old version: `2.1.0-1`
+- new version: `2.1.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## ntpd_driver (humble) - 2.1.0-1
 
 The packages in the `ntpd_driver` repository were released into the `humble` distro by running `/home/steven/osrf/bloom/.direnv/python-3.10.4/bin/bloom-release -r humble ntpd_driver -n` on `Wed, 20 Apr 2022 22:07:59 -0000`

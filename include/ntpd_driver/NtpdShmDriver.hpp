@@ -46,12 +46,12 @@
 #ifndef NTPD_DRIVER__NTPDSHMDRIVER_HPP_
 #define NTPD_DRIVER__NTPDSHMDRIVER_HPP_
 
-#include <rclcpp/rclcpp.hpp>
-#include <sensor_msgs/msg/time_reference.hpp>
-
 #include <chrono>
 #include <functional>
 #include <memory>
+
+#include "rclcpp/rclcpp.hpp"
+#include "sensor_msgs/msg/time_reference.hpp"
 
 namespace ntpd_driver
 {
@@ -95,7 +95,6 @@ private:
 
   rclcpp::Parameter shm_unit_;
   rclcpp::Parameter fixup_date_;
-  rclcpp::Parameter time_ref_topic_;
 
   std::unique_ptr<ShmTimeT, std::function<void(ShmTimeT *)>> shm_;
 

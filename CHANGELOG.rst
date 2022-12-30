@@ -2,6 +2,30 @@
 Changelog for package ntpd_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2022-12-30)
+------------------
+* include: fix include warnings, arain
+* fix ament_cpplint warnings
+* node: remove time_ref_topic parameter, port for for `#9 <https://github.com/vooon/ntpd_driver/issues/9>`_
+* Merge branch 'master' into ros2
+  * master:
+  1.3.0
+  update changelog
+  ci: return semgrep default rule set
+  ci: update ros-i ci action
+  ci: add industrial CI
+  shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+  add license file
+* 1.3.0
+* update changelog
+* ci: return semgrep default rule set
+* ci: update ros-i ci action
+* ci: add industrial CI
+* shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+  Fixes `#9 <https://github.com/vooon/ntpd_driver/issues/9>`_
+* add license file
+* Contributors: Vladimir Ermakov
+
 2.1.0 (2021-03-25)
 ------------------
 * make linker happy
@@ -29,6 +53,16 @@ Changelog for package ntpd_driver
 * open shm
 * make it buildable, todo: subscribe, open shm
 * update cmake to use ament
+* Contributors: Vladimir Ermakov
+
+1.3.0 (2022-12-30)
+------------------
+* ci: return semgrep default rule set
+* ci: update ros-i ci action
+* ci: add industrial CI
+* shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+  Fixes `#9 <https://github.com/vooon/ntpd_driver/issues/9>`_
+* add license file
 * Contributors: Vladimir Ermakov
 
 1.2.0 (2015-10-02)

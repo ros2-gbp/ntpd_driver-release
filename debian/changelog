@@ -1,0 +1,133 @@
+ros-rolling-ntpd-driver (2.2.0-3noble) noble; urgency=high
+
+  * include: fix include warnings, arain
+  * fix ament_cpplint warnings
+  * node: remove time_ref_topic parameter, port for for #9 <https://github.com/vooon/ntpd_driver/issues/9>
+  * Merge branch 'master' into ros2
+    * master:
+    1.3.0
+    update changelog
+    ci: return semgrep default rule set
+    ci: update ros-i ci action
+    ci: add industrial CI
+    shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+    add license file
+  * 1.3.0
+  * update changelog
+  * ci: return semgrep default rule set
+  * ci: update ros-i ci action
+  * ci: add industrial CI
+  * shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+    Fixes #9 <https://github.com/vooon/ntpd_driver/issues/9>
+  * add license file
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 30 Dec 2022 00:00:00 -0000
+
+ros-rolling-ntpd-driver (2.1.0-3noble) noble; urgency=high
+
+  * make linker happy
+  * fix loading as a component
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Thu, 25 Mar 2021 00:00:00 -0000
+
+ros-rolling-ntpd-driver (2.0.2-3noble) noble; urgency=high
+
+  * make tests happy
+  * license: change formatting to one known by ament_copyright
+  * ci: initial import
+  * add license file
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 26 Feb 2021 00:00:00 -0000
+
+ros-rolling-ntpd-driver (2.0.1-3noble) noble; urgency=high
+
+  * disable depend on launch_xml, rosdep can't find it
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sun, 29 Dec 2019 00:00:00 -0000
+
+ros-rolling-ntpd-driver (2.0.0-3noble) noble; urgency=high
+
+  * update launch
+  * read parameters
+  * subscribe to time_ref topic, remove log THROTTLE - segfaults
+  * open shm
+  * make it buildable, todo: subscribe, open shm
+  * update cmake to use ament
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sun, 29 Dec 2019 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.3.0-3noble) noble; urgency=high
+
+  * ci: return semgrep default rule set
+  * ci: update ros-i ci action
+  * ci: add industrial CI
+  * shm_driver: remove time_ref topic parameter to improve secutiry, please use remap
+    Fixes #9 <https://github.com/vooon/ntpd_driver/issues/9>
+  * add license file
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 30 Dec 2022 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.2.0-3noble) noble; urgency=high
+
+  * #2 <https://github.com/vooon/ntpd_driver/issues/2>: allow both UDPROS and TCPROS
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 02 Oct 2015 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.1.1-3noble) noble; urgency=high
+
+  * Syncronize shm write with gpsd/ntpshmwrite.c
+  * Add fixup_date parameter.
+    Now driver can setup system date.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sat, 18 Jul 2015 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.1.0-3noble) noble; urgency=high
+
+  * Update package.xml for REP 140
+  * Change topic param name to ~/time_ref_topic
+  * Merge pull request #1 <https://github.com/vooon/ntpd_driver/issues/1> from oceansystemslab/master
+    Updated Driver
+  * Updated README with new node input parameter
+  * fixed indentation according to ROS guidelines and added input parameter for time reference topic
+  * Removed transport hints to allow the driver to work with the nmea_serial_driver Python publisher and added ROS style indentation.
+  * Updated .gitignore with C++ version on GitHub
+  * Contributors: Valerio De Carolis, Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 17 Apr 2015 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.0.2-3noble) noble; urgency=high
+
+  * Add example launch script.
+  * Add rosindex metadata.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sat, 24 Jan 2015 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.0.1-3noble) noble; urgency=high
+
+  * Rename package from ros2ntpd to ntpd_driver
+    Add notes for chrony.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sun, 13 Jul 2014 00:00:00 -0000
+
+ros-rolling-ntpd-driver (1.0.0-3noble) noble; urgency=high
+
+  * Update readme
+  * Add readme
+  * Update shmTime struct to latest version.
+    Fix: change leap=0 will fix ntpd receive.
+  * Initial
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sat, 28 Jun 2014 00:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-jazzy-ntpd-driver
+Section: misc
+Priority: optional
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ntpd_driver
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ntpd-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: ntpd_driver sends TimeReference message time to ntpd server

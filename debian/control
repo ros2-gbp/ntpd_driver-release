@@ -1,0 +1,12 @@
+Source: ros-kilted-ntpd-driver
+Section: misc
+Priority: optional
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ntpd_driver
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ntpd-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: ntpd_driver sends TimeReference message time to ntpd server

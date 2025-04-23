@@ -1,1 +1,1 @@
-{"base": "403b2e9", "parent": "debian/rolling/ntpd_driver", "previous": "98d1253", "trim": "", "trimbase": ""}
+{"base": "caaf3d3f1027", "parent": "debian/kilted/ntpd_driver", "previous": "d0f7f243fa13", "trim": "", "trimbase": ""}

@@ -2,6 +2,13 @@
 Changelog for package ntpd_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.0 (2025-09-08)
+------------------
+* ci: update versions
+* lint: fix compile warnings
+* cmake: update for kilted+
+* Contributors: Vladimir Ermakov
+
 2.2.0 (2022-12-30)
 ------------------
 * include: fix include warnings, arain
